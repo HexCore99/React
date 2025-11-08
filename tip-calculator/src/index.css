@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  padding-top: 40px;
+  padding-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.top-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-label h2 {
+  margin: 0px;
+}
+
+.bill-amount {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.bill-amount input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  /* box-sizing: border-box; */
+}
+
+.tip-percentage {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.tip-percentage button {
+  width: 18%;
+  margin: 5px 5px 0 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.number-of-people {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.number-of-people input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  /* box-sizing: border-box; */
+}
+
+.final-bill {
+  width: 100%;
+  background: #eafffa;
+  border-radius: 16px;
+  padding: 24px 24px 20px 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.final-bill div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.final-bill label {
+  color: #222;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.final-bill hr {
+  border: none;
+  border-top: 1px solid #b2f0e9;
+  margin: 16px 0;
+  background: transparent;
+}
+button {
+  width: 90%;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
