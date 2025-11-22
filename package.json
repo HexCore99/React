@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
     "json-server": "^1.0.0-beta.3",
-    "react-router-router": "^0.0.24"
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0",
+    "react-router-router": "^0.0.24",
+    "server": "^1.0.42",
+    "vite": "^7.2.4"
   }
 }
