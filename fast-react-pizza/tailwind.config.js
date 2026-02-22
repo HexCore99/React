@@ -1,0 +1,15 @@
+// ...existing code...
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        robotoMono: ["Roboto Mono", "monospace"],
+      },
+      height: {
+        screen: "100dvh",
+      },
+    },
+  },
+  plugins: [],
+};
